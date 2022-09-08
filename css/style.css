@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+@font-face{
+    font-family: 'Dark College';
+    src: url('Dark College.otf') ;
+}
+
+.carrinho{
+  float: right;
+  margin-right: 250px;
+  font-size: 80px;
+  margin-top: -75px;
+  color: rgb(34, 40, 227);
+  cursor: pointer;
+}
+.topo {
+    height: 120px;
+    background: url('../images/halter.jpg') ;
+    width: 100%;
+   margin-top: 40px;
+
+   
+}
+.topo h1{
+    margin-left: 400px;
+    margin-top: -50px;
+    font-family: Trattatello, fantasy;
+    font-size: 70px;
+    color: rgb(34, 40, 227);
+   
+}
+.principal{
+    background-color: rgb(140, 218, 63);
+    position: absolute;
+    margin-left: 220px;
+    height: 100%;
+    width: 65%;
+    margin-top: 0px;
+    border-radius: 10%;
+}
+.anuncio{
+    height: 350px;
+    width: 260px;
+    border: 10px solid rgb(34, 40, 227);
+    border-radius: 10%;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    float: left;
+  background-color: white;
+    
+}
+
+img{
+    height: 120px;
+    width: 170px;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+   
+}
+img:hover{
+    transform: scale(1.5); 
+    
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+}
+p{
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+  
+   }
+
+.mais_menos{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 132px;
+   color: rgb(11, 23, 37);
+    cursor: pointer;
+    margin-top: -5px;
+   
+}
+.add{
+    margin-top: -43px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input{
+    width: 30px;
+    height: 20px;
+    text-align: center;
+}
+
+.preco{
+    font-size: 25px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -5px;
+    color: rgb(11, 23, 37);
+    background-color:rgb(140, 218, 63) ;
+    border-radius: 25%;
+}
+/*
+
+.row {
+   float:right;
+  width: 25%;
+  background-color: rgb(34, 40, 227);
+  border-radius: 10%;
+ 
+   height: 100%;
+}
+.row h1{
+    text-align: center;
+    margin-left: 150px;
+}
+.form-group {
+    text-align: center;
+    margin-left: 50px;
+    font-family: Trattatello, fantasy;
+    margin-top: 80px;
+    padding: 50px;
+}
+
